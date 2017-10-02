@@ -1,3 +1,3 @@
 # Website-for-AllPhase
 
-Link: www.allphase.net
+Link: www.getallphase.net
