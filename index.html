@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>All Phase | Homepage</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Washington, washington state, NorthWest, Construction, electrical, remodel, AllPhase, GetAllPhase,">
+    <meta name="description" content="We do home building, remodels, additions, detached garages & shops,
+    Misc. residential and commercial construction. Electrical, audio/video, Heating & A/C.">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body lang="en">
+
+    <header>
+      <div class="container">
+        <div id="logo">
+          <a href="index.html">
+            <img src="./Images/logo.png" alt="Allphase construction">
+          </a>
+        </div>
+        <nav id="main_nav">
+          <ul>
+            <li><a href="index.html" class="highlight">Home  </a>|</li>
+            <li><a href="about us.html">About us  </a>|</li>
+            <li><a href="contact.html">Contact  </a>|</li>
+            <li><a href="project gallery.html">Project gallery  </a>|</li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+
+
+
+  <img class="cover_image" src="./Images/Cover_image.jpg" alt="lorem ipsum"/>
+
+
+
+  <h1 class="main_header">Core Services</h1>
+    <section id="core_competencies">
+      <div class="container">
+        <div class="services_box">
+          <h2>Home Building</h2>
+            <img class="services_image1" src="././Images/gallery/construction/complete_3.jpg" alt="Home building">
+        </div>
+
+        <div class="services_box">
+          <h2>Electrical</h2>
+          <img class="services_image2" src="././Images/gallery/electrical/electrical_1.jpg" alt="Electrical">
+        </div>
+
+        <div class="services_box">
+          <h2>Remodel</h2>
+          <img class="services_image" src="././Images/gallery/remodel/remodel_3.jpg" alt="Remodel">
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <sub>&copy AllPhase | built by Nathaniel Willett.<sub>
+      </div>
+    </footer>
+
+    <script>
+      $(document).ready(function(){
+        $(".services_image2").click(function(){
+            $(".services_image1").toggle(1000);
+        })
+
+
+
+
+
+      })
+    </script>
+
+  </body>
+</html>
