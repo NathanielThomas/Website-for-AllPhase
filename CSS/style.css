@@ -1,0 +1,260 @@
+*{
+  margin: 0px;
+  padding: 0px;}
+
+body{
+  background-color: #EEEEEE;
+  font-family: avenir, helvetica, ariel;
+  font-size: 1.2em;
+  line-height: 1.5em;}
+
+
+
+h1, h2, h3, h4, h5, h6{
+  font-family: avenir, helvetica, ariel;
+  font-weight: 500;
+  margin-top: 5px;
+  padding: 25px 0 25px 0;}
+
+
+
+.container{
+  width: 90%;
+  margin: auto;}
+.highlight{
+  color: #21618C}
+.social_media{
+  width: 52px;}
+.social_media{
+  list-style: none;}
+.main_header{
+  clear: both;
+  text-align: center;
+  color: #21618C;}
+.center{
+  text-align: center;
+  color: red;
+}
+
+
+
+
+/*Header CSS*/
+header ul{
+float: right;
+text-align: right;
+margin-top: 75px;}
+header li{
+  list-style: none;
+  display: inline;}
+header a{
+  text-decoration: none;
+  font-family: Avenir, helvetica, ariel;
+  font-size: 22px;
+  padding-left: 9px;
+  color: black;}
+header #logo img{
+  float: left;
+  width: 400px;
+  margin-right: 10px;}
+
+/*link states*/
+a:hover{
+  color: #21618C;
+  }
+
+
+
+
+
+footer{
+  clear: both;
+  text-align: center;}
+#footerOne{
+  position: relative;
+  top: 770px;
+}
+#footerFour{
+  position: relative;
+  top:323px;
+}
+
+
+
+/*Home page CSS*/
+img.cover_image{
+  position: relative;
+  top: 10%;
+  width: 100%;}
+
+#core_competencies img{
+  width: 90%;
+  border: 1px solid black;
+  max-width: 100%;}
+#core_competencies h1{
+  text-align: center;}
+.services_box{
+  float: left;
+  text-align: center;
+  width: 100%;}
+
+
+
+/*About us CSS*/
+ img.company_photo{
+  margin-left: 26px;
+  width: 400px;
+  float: left;
+  padding-right: 20px;}
+#company_description{
+  clear: both;
+  text-align: left;}
+#company_description ul{
+  list-style: none;
+  padding-top: 15px;}
+#company_description a{
+  color: #21618C;
+  text-decoration: none;
+}
+#company_description a:hover{
+  font-weight: 500;
+}
+#personal_profiles{
+  clear: both;
+  text-align: right;}
+
+
+
+/*Contact page CSS*/
+  #contact_form > form{
+    width: 80%;
+    margin: 0 auto 0;
+  }
+  #contact_form label{
+    display: block;
+    margin-bottom: 20px;
+    }
+  .contact-info-group label{
+    width: 28%;
+    margin-right: 6%;
+    margin-top: 3.9%;
+    float: left;
+  }
+  .contact-info-group input{
+    border-radius: 0px;
+    border: 1px solid #21618C;
+    width: 115%;
+    height: 44px;
+    font-size: 20px;
+    padding-left: 7px;
+  }
+  @media screen and (max-width: 1000px){
+    .contact-info-group label{
+      width: 86.55%;
+      transition: 0.5s;
+    }
+  }
+
+  #contact_form select{
+    margin-bottom: 0px;
+    width: 32%;
+    height: 44px;
+
+  }
+  .select_service select{
+    margin-top: 3.95%;
+    width: 28%;
+    outline: 1px solid #21618C;
+    border: 0px;
+    background-color: #ffffff;
+    color: black;
+    font-family: avenir;
+    font-size: 20px;
+    background-image: ;
+  }
+  @media screen and (max-width: 1000px){
+    #contact_form select {
+    width: 100.5%;
+    margin-left: 1px;
+    transition: 0.5s;
+  }
+  }
+
+
+  #contact_form textarea{
+    width: 99.5%;
+    clear: both;
+    height: 400px;
+    font-size: 17px;
+    padding-left: 7px;
+    padding-top: 7px;
+    border: 1px solid #21618C;
+    margin: auto;
+  }
+  .submit-button button{
+    width: 150px;
+    height: 48px;
+    font-size: 18px;
+    color: #21618C;}
+  .submit-button{
+    width: 150px;
+  }
+  #contact_description p{
+    position: relative;
+    left: 5.5%;
+    margin-top: 20px;
+  }
+
+  /*Project gallery*/
+#gallery{
+    clear: both;
+      }
+.project-section{
+  line-height: 0;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 0px;
+  -moz-column-count: 4;
+  -moz-column-gap: 0px;
+  column-count: 4;
+  column-gap: 0px;
+}
+.project-section img{
+  width: 100%;
+  height: auto;}
+@media screen and (max-width: 950px){
+  .project-section{
+      column-count: 2;
+      transition: .5s;
+  }
+}
+
+
+
+
+/*Gallery headers*/
+.HR-header {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;}
+
+.HR-header > span {
+  position: relative;
+  display: inline-block;}
+
+.HR-header > span:before,
+.HR-header > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 1px;
+  background: #000000;}
+
+.HR-header > span:before {
+  right: 100%;
+  margin-right: 15px;}
+
+.HR-header > span:after {
+  left: 100%;
+  margin-left: 15px;}
